@@ -28,6 +28,30 @@ to_compress = {
         by = {
             "cyan", "darkgrey", "gray", "green", "magenta", "orange", "pink", "red", "violet", "white", "yellow"
         }
+    },
+    ["3d_armor:chestplate_diamond"] = {
+        replace = "diamond",
+        by = {
+            "bronze", "gold", "cactus", "wood"
+        }
+    },
+    ["3d_armor:boots_diamond"] = {
+        replace = "diamond",
+        by = {
+            "bronze", "gold", "cactus", "wood"
+        }
+    },
+    ["3d_armor:helmet_diamond"] = {
+        replace = "diamond",
+        by = {
+            "bronze", "gold", "cactus", "wood"
+        }
+    },
+    ["3d_armor:leggings_diamond"] = {
+        replace = "diamond",
+        by = {
+            "bronze", "gold", "cactus", "wood"
+        }
     }
 }
 
