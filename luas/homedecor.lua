@@ -1,4 +1,4 @@
-cabinets_to_unregister = {"granite", "marble"}
+local cabinets_to_unregister = {"granite", "marble"}
 
 for _ , name in pairs(cabinets_to_unregister) do
     minetest.unregister_item("homedecor:kitchen_cabinet_colorable_" .. name)

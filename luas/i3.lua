@@ -1,4 +1,4 @@
-to_compress = {
+local to_compress = {
     ["shields:shield_diamond"] = {
         replace = "diamond",
         by = { "bronze", "cactus", "enhanced_cactus", "gold", "steel", "wood", "enhanced_wood" }
@@ -52,8 +52,21 @@ to_compress = {
         by = {
             "bronze", "gold", "cactus", "wood"
         }
+    },
+    ["xdecor:potted_rose"] = {
+        replace = "rose",
+        by = {
+            "dandelion_white",  "dandelion_yellow", "geranium", "tulip", "viola"
+        }
+    },
+    ["techage:hammer_diamond"] = {
+        replace = "diamond",
+        by = {
+            "bronze", "meridium", "gold", "steel", "stone"
+        }
     }
 }
+
 
 for item, def in pairs(to_compress) do
     i3.compress(item, def)

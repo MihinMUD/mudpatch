@@ -1,3 +1,5 @@
+-- making flour recipe a group recipe
+
 minetest.override_item("farming:wheat", {
     groups = {food = 1, food_grain = 1, food_wheat = 1}
 })
@@ -47,3 +49,7 @@ minetest.register_craft({
     },
     replacements = { { "group:food_mortar_pestle", "farming:mortar_pestle" } }
 })
+
+-- combining blueberry types
+
+minetest.register_alias_force("default:blueberries", "farming:blueberries")
